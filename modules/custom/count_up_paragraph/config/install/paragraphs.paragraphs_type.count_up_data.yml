@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - count_up_paragraph
+id: count_up_data
+label: "Count-up data"
+icon_uuid: null
+icon_default: null
+description: "Allows users to add data (label, number) to count-up content types."
+behavior_plugins: {}

@@ -1,0 +1,10 @@
+name: Count-up Paragraph
+description: This module creates a new paragraph type (count-up-data) thats contains two fields (label and number).
+package: Statistics
+
+type: module
+core_version_requirement: ^9.4 || ^10
+dependencies:
+  - drupal:paragraphs
+libraries: -count_up_paragraph/js
+  -count_up_paragraph/css

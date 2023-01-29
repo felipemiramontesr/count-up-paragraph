@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label
+    - paragraphs.paragraphs_type.count_up_data
+  enforced:
+    module:
+      - count_up_paragraph
+id: paragraph.count_up_data.field_label
+field_name: field_label
+entity_type: paragraph
+bundle: count_up_data
+label: Label
+description: "Insert a count-up label."
+required: true
+translatable: false
+default_value: {}
+default_value_callback: ""
+settings: {}
+field_type: string

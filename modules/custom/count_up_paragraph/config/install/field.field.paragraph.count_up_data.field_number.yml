@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_number
+    - paragraphs.paragraphs_type.count_up_data
+  enforced:
+    module:
+      - count_up_paragraph
+id: paragraph.count_up_data.field_number
+field_name: field_number
+entity_type: paragraph
+bundle: count_up_data
+label: Number
+description: "Insert the number that will be animated as count-up"
+required: true
+translatable: false
+default_value: {}
+default_value_callback: ""
+settings:
+  min: 0.0
+  max: null
+  prefix: ""
+  suffix: ""
+field_type: decimal

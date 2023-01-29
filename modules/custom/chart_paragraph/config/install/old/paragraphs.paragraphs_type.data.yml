@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - chart_paragraph
+id: data
+label: Data
+icon_uuid: null
+icon_default: null
+name: "Data"
+type: data
+description: "Data used in Chart Content Type"
+help: ""
+new_revision: false
+preview_mode: 1
+display_submitted: true
+behavior_plugins: {}

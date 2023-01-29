@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.data.field_axis_x
+    - field.field.paragraph.data.field_axis_y
+    - paragraphs.paragraphs_type.data
+_core:
+  default_config_hash: g2bJt518DNvH5tWfxalzxEVddsabIXtZWZRVxm09pLM
+id: paragraph.data.default
+targetEntityType: paragraph
+bundle: data
+mode: default
+content:
+  field_axis_x:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ""
+    third_party_settings: {}
+  field_axis_y:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ""
+    third_party_settings: {}
+hidden:
+  created: true
+  status: true

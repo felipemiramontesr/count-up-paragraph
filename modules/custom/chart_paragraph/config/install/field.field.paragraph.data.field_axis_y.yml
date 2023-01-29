@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_axis_y
+    - paragraphs.paragraphs_type.data
+  enforced:
+    module:
+      - chart_paragraph
+_core:
+  default_config_hash: kyoiwO6chyQRhlN1IJSBF5N32Rcq5zlYrsxrzQbnpJw
+id: paragraph.data.field_axis_y
+field_name: field_axis_y
+entity_type: paragraph
+bundle: data
+label: "Axis Y"
+description: ""
+required: true
+translatable: false
+default_value: {}
+default_value_callback: ""
+settings:
+  min: null
+  max: null
+  prefix: ""
+  suffix: ""
+field_type: decimal

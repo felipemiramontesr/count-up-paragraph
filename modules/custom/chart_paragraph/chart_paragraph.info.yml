@@ -1,0 +1,10 @@
+name: Chart Paragraph
+description: This module creates a new Paragraph Type (Data) thats contains two fields (field_axis_x and field_axis_y).
+package: Statistics
+
+type: module
+core_version_requirement: ^9.4 || ^10
+dependencies:
+  - drupal:paragraphs
+libraries: -chart_paragraph/js
+  -chart_paragraph/css
